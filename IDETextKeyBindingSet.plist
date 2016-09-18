@@ -298,5 +298,14 @@
         <key>Make Text Writing Direction Right to Left</key>
         <string>makeTextWritingDirectionRightToLeft:</string>
     </dict>
+    <key>Custom</key>
+	<dict>
+		<key>Insert New Line Below Current Line</key>
+		<string>moveToEndOfLine:, insertNewline:</string>
+		<key>Duplicate Lines</key>
+		<string>selectLine:, copy:, moveToEndOfLine:, insertNewline:, paste:, deleteBackward:</string>
+		<key>Delete Current Lines</key>
+		<string>deleteToBeginningOfLine:, moveToEndOfLine:, deleteToBeginningOfLine:, deleteBackward:, moveDown:, moveToBeginningOfLine:</string>
+	</dict>
 </dict>
 </plist>
