@@ -1,4 +1,12 @@
-##  安装 ruby 版本管理器 rbenv
+* ## 安装 homebrew
+
+```bash
+$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+$ brew install tree
+$ brew install wget
+```
+
+* ## 安装 ruby 版本管理器 rbenv
 
 ```bash
 $ brew install rbenv 
