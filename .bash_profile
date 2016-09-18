@@ -61,8 +61,6 @@ export LSCOLORS=GxFxCxDxBxegedabagaced
 
 export GREP_OPTIONS='--color=auto'
 export GREP_COLOR='1;35;40'
-export GEM_HOME=$HOME/c0ming/Ruby
-export PATH=${PATH}:$GEM_HOME/bin
 export PATH=${PATH}:/Users/c0ming/develop/Android/android-ndk-r8b
 export PATH=$PATH:/Applications/Xcode.app/Contents/Developer/usr/bin/
 export PATH=$PATH:/usr/local/mysql/bin/
@@ -73,3 +71,5 @@ function gi() { curl -L -s https://www.gitignore.io/api/$@ ;}
 export GOROOT=/usr/local/go
 export PATH=$GOROOT/bin:$PATH
 export GOPATH=$HOME/golang
+
+eval "$(rbenv init -)"
