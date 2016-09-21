@@ -1,4 +1,4 @@
-## 安装 homebrew
+## 安装 [Homebrew](http://brew.sh/)
 
 ```bash
 $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -6,7 +6,7 @@ $ brew install tree
 $ brew install wget
 ```
 
-## 安装 ruby 版本管理器 rbenv
+## 安装 Ruby 版本管理器 [rbenv](https://github.com/rbenv/rbenv)
 
 ```bash
 $ brew install rbenv 
@@ -25,7 +25,7 @@ $ gem sources --add https://ruby.taobao.org/ --remove https://rubygems.org/
 $ gem install cocoapods
 ```
 
-## 安装 proxychains-ng
+## 安装 [proxychains-ng](https://github.com/shadowsocks/shadowsocks/wiki/Using-Shadowsocks-with-Command-Line-Tools)
 
 ```bash
 $ brew install proxychains-ng
