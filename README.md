@@ -44,3 +44,12 @@ quiet_mode
 [ProxyList]
 socks5  127.0.0.1 1080
 ```
+
+* proxychains 使用
+```
+proxychains4 curl https://www.twitter.com/
+```
+```
+proxychains4 bash
+curl https://www.twitter.com/
+```
